@@ -4,9 +4,9 @@
   <!-- Remotes -->
   <remote name="Dazzozo" fetch="git://github.com/Dazzozo/" />
 
-  <include name="base-kk-aosp.xml"/>
+  <include name="base-jb.xml"/>
 
-  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+  <default remote="caf" revision="refs/tags/android-4.3_r2.1" sync-j="4"/>
 
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
@@ -21,9 +21,8 @@
    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
 
   <!-- U8815 -->
-  <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="Dazzozo" revision="cm-11.0" />
-  <project path="device/huawei/msm7x27a-common" name="android_device_huawei_msm7x27a-common" remote="Dazzozo" revision="cm-11.0" />
-  <project path="kernel/huawei/huawei-kernel-3.4" name="huawei-kernel-3.4"  remote="Dazzozo" revision="kitkat" />
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="Dazzozo" revision="kitkat" />
+  <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="Dazzozo" revision="b2g" />
+  <project path="kernel/huawei/huawei-kernel-3.4" name="huawei-kernel-3.4"  remote="Dazzozo" revision="jellybean-mr2" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="Dazzozo" revision="b2g" />
 
 </manifest>
